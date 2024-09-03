@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("./images/Снимок\ экрана\ 2024-09-02\ в\ 18.36.41.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+form {
+    padding: 77px 60px;
+    display: flex;
+    flex-direction: column;
+    width: 466px;
+    background-color: #EEF1F2;
+    border-radius: 10px;
+    margin: 200px auto;
+}
+
+
+.form {
+    margin: 0 auto;
+    
+}
+
+
+form h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333232;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+.inp {
+    padding: 10px;
+    width: 326px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 1px solid #EAEAEA
+}
+
+
+.buy-forgot {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.buy-forgot button {
+    padding: 10px 148px;
+    background-color: #2CB708;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #2CB708;
+    width: 346px;
+    margin: 24px 0 0 0;
+}
+
+
+.buy-forgot button:hover {
+    background-color: transparent;
+    color: #2CB708;
+    border: 1px solid #2CB708;
+}
+
+
+.buy-forgot a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2CB708;
+    text-decoration: none;
+}
+
+
+.buy-forgot a:hover {
+    text-decoration: underline;
+}

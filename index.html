@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOVARADAR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <div class="com">
+                <img src="./images/logo.png" alt="TOVARADAR" class="logo">
+
+                <div class="sel">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <select name="region" id="region">
+                        <option value="">Москва, Московская область</option>
+                        <option value="">Ташкент, Ташкентская область </option>
+                        <option value="">Самарканд, Узбекистан </option>
+                        <option value="">Санкт-Петербург, Ленинградская область </option>
+                        <option value="">Бухара, Узбекистан </option>
+                        <option value="">Алматы, Казахстан </option>
+                        <option value="">Нью-Йорк, США </option>
+                        <option value="">Лондон, Великобритания </option>
+                        <option value="">Киев, Украина </option>
+                        <option value="">Минск, Беларусь</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="search_section">
+                <button class="catalog_header"><a href="#"><i class="fa-solid fa-list"></i>Каталог</a></button>
+
+                <div class="sear">
+                    <input type="text" name="search" class="search" id="search" placeholder="Я ищу...">
+                    <button class="search_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+            </div>
+
+            <div class="navigation">
+                <nav>
+                    <i class="fa-solid fa-user"></i>
+                    <h4><a href="#">Войти</a></h4>
+                </nav>
+
+                <nav>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <h4><a href="#">Заказы</a></h4>
+                </nav>
+
+                <nav>
+                    <i class="fa-solid fa-heart"></i>
+                    <h4><a href="#">Избранные</a></h4>
+                </nav>
+
+                <nav>
+                    <i for="page" class="fa-solid fa-cart-shopping"></i>
+                    <h4 for="page"><a id="page" href="./cart.html">Корзина</a></h4>
+                </nav>
+            </div>
+
+        </header>
+
+        <main>
+            <img class="super_price" src="./images/super_price.png" alt="Супер цены недели">
+        </main>
+
+        <main class="catalog">
+
+            <!-- Big cards -->
+            <div class="big-card">
+                <a href="#">
+                    <img src="./images/catalog/electrics.png" alt="electrics">
+                    <h1>Электроника</h1>
+                </a>
+            </div>
+
+            <div class="big-card">
+                <a href="#">
+                    <img src="./images/catalog/bitoviye.png" alt="electrics">
+                    <h1>Быловые товары</h1>
+                </a>
+            </div>
+
+            <div class="big-card">
+                <a href="#">
+                    <img src="./images/catalog/books.png" alt="electrics">
+                    <h1>Книги, хобби, канцелярия</h1>
+                </a>
+            </div>
+
+            <div class="big-card">
+                <a href="#">
+                    <img src="./images/catalog/produkti.png" alt="electrics">
+                    <h1>Продукты питания</h1>
+                </a>
+            </div>
+            <!-- /Big cards -->
+
+            <!-- 1st four cards -->
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/kids.png" alt="Image">
+                    <h1>Детские товары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/clothes.png" alt="Image">
+                    <h1>Одежда, обувь и аксессуары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/animals.png" alt="Image">
+                    <h1>Зоотовары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/Beauty.png" alt="Image">
+                    <h1>Красота и уход</h1>
+                </a>
+            </div>
+            <!-- /1st four cards -->
+
+
+            <!-- 2nd four cards -->
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/kids_2.0.png" alt="Image">
+                    <h1>Детские товары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/clothes_2.0.png" alt="Image">
+                    <h1>Одежда, обувь и аксессуары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/zoo.png" alt="Image">
+                    <h1>Зоотовары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/beauty_2.0.png" alt="Image">
+                    <h1>Красота и уход</h1>
+                </a>
+            </div>
+            <!-- /2nd four cards -->
+
+
+            <!-- 3rd four cards -->
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/kids_3.0.png" alt="Image">
+                    <h1>Детские товары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/clothes_3.0.png" alt="Image">
+                    <h1>Одежда, обувь и аксессуары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/animals_2.0.png" alt="Image">
+                    <h1>Зоотовары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/beauty_3.0.png" alt="Image">
+                    <h1>Красота и уход</h1>
+                </a>
+            </div>
+            <!-- /3rd four cards -->
+
+
+            <!-- 4th four cards -->
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/kids_2.0.png" alt="Image">
+                    <h1>Детские товары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/clothes_2.0.png" alt="Image">
+                    <h1>Одежда, обувь и аксессуары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/zoo.png" alt="Image">
+                    <h1>Зоотовары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/beauty_2.0.png" alt="Image">
+                    <h1>Красота и уход</h1>
+                </a>
+            </div>
+            <!-- /4th four cards -->
+
+
+
+            <!-- 5th four cards -->
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/animals.png" alt="Image">
+                    <h1>Детские товары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/Beauty.png" alt="Image">
+                    <h1>Одежда, обувь и аксессуары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/tech.png" alt="Image">
+                    <h1>Зоотовары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/kids_2.0.png" alt="Image">
+                    <h1>Красота и уход</h1>
+                </a>
+            </div>
+            <!-- /5th four cards -->
+
+            <!-- 6th four cards -->
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/clothes_2.0.png" alt="Image">
+                    <h1>Детские товары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/zoo.png" alt="Image">
+                    <h1>Одежда, обувь и аксессуары</h1>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <img src="./images/catalog/animals_2.0.png" alt="Image">
+                    <h1>Зоотовары</h1>
+                </a>
+            </div>
+
+            <!-- /6th four cards -->
+
+        </main>
+
+
+        <main class="products">
+            <h1>Популярная компьютерная техника</h1>
+
+            <div class="pop_products">
+
+                <!-- 1st five pop products -->
+                <div class="pop">
+                    <img src="./images/catalog/airpods.png" alt="Image">
+
+                    <h1>от 3000 ₽</h1>
+                    <p class="description">Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver </p>
+
+                    <p class="deals">26 предложений</p>
+
+                    <button><a href="#">Купить</a></button>
+                </div>
+
+                <div class="pop">
+                    <img src="./images/catalog/tech.png" alt="Image">
+
+                    <h1>от 3000 ₽</h1>
+                    <p class="description">Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver (53013ERK)</p>
+
+                    <p class="deals">26 предложений</p>
+
+                    <button><a href="#">Купить</a></button>
+                </div>
+
+                <div class="pop">
+                    <img src="./images/catalog/yandex.png" alt="Image">
+
+                    <h1>от 3000 ₽</h1>
+                    <p class="description">Умная колонка Яндекс Станция Мини</p>
+
+                    <p class="deals">26 предложений</p>
+
+                    <button><a href="#">Купить</a></button>
+                </div>
+
+                <div class="pop">
+                    <img src="./images/catalog/xiaomi.png" alt="Image">
+
+                    <h1>от 3000 ₽</h1>
+                    <p class="description">Робот-пылесос Xiaomi Mi Robot</p>
+
+                    <p class="deals">26 предложений</p>
+
+                    <button><a href="#">Купить</a></button>
+                </div>
+
+                <div class="pop">
+                    <img src="./images/catalog/Canon.png" alt="Image">
+
+                    <h1>от 3000 ₽</h1>
+                    <p class="description">Зеркальный фотоаппарат Canon EOS 6D Body</p>
+
+                    <p class="deals">26 предложений</p>
+
+                    <button><a href="#">Купить</a></button>
+                </div>
+
+                <!-- /1st five pop products -->
+
+
+                <!-- 2st five pop products -->
+                <div class="pop">
+                    <img src="./images/catalog/airpods.png" alt="Image">
+
+                    <h1>от 3000 ₽</h1>
+                    <p class="description">Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver </p>
+
+                    <p class="deals">26 предложений</p>
+
+                    <button><a href="#">Купить</a></button>
+                </div>
+
+                <div class="pop">
+                    <img src="./images/catalog/tech.png" alt="Image">
+
+                    <h1>от 3000 ₽</h1>
+                    <p class="description">Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver (53013ERK)</p>
+
+                    <p class="deals">26 предложений</p>
+
+                    <button><a href="#">Купить</a></button>
+                </div>
+
+                <div class="pop">
+                    <img src="./images/catalog/yandex.png" alt="Image">
+
+                    <h1>от 3000 ₽</h1>
+                    <p class="description">Умная колонка Яндекс Станция Мини</p>
+
+                    <p class="deals">26 предложений</p>
+
+                    <button><a href="#">Купить</a></button>
+                </div>
+
+                <div class="pop">
+                    <img src="./images/catalog/xiaomi.png" alt="Image">
+
+                    <h1>от 3000 ₽</h1>
+                    <p class="description">Робот-пылесос Xiaomi Mi Robot</p>
+
+                    <p class="deals">26 предложений</p>
+
+                    <button><a href="#">Купить</a></button>
+                </div>
+
+                <div class="pop">
+                    <img src="./images/catalog/Canon.png" alt="Image">
+
+                    <h1>от 3000 ₽</h1>
+                    <p class="description">Зеркальный фотоаппарат Canon EOS 6D Body</p>
+
+                    <p class="deals">26 предложений</p>
+
+                    <button><a href="#">Купить</a></button>
+                </div>
+                <!-- /2st five pop products -->
+
+            </div>
+
+            <button class="show_more">Показать еще</button>
+        </main>
+
+        <main class="dream">
+            <img src="./images/dream_house.png" alt="Image">
+            <!-- <ul class="sides">
+                <li><img src="./images/Ellipse.png" alt="Ellipse"></li>
+                <li><img src="./images/solid_ellipse.png" alt="Ellipse"></li>
+                <li><img src="./images/Ellipse.png" alt="Ellipse"></li>
+            </ul> -->
+        </main>
+
+        <main class="brands-section">
+            <h1>Представительные бренды</h1>
+
+            <section class="brands">
+                <img src="./images/brands/sber.png" alt="Image" class="brand">
+                <img src="./images/brands/dyson.png" alt="Image" class="brand">
+                <img src="./images/brands/whiskas.png" alt="Image" class="brand">
+                <img src="./images/brands/xiaomi.png" alt="Image" class="brand">
+                <img src="./images/brands/Salyut.png" alt="Image" class="brand">
+                <img src="./images/brands/hi.png" alt="Image" class="brand">
+                <img src="./images/brands/makita.png" alt="Image" class="brand">
+                <img src="./images/brands/richard.png" alt="Image" class="brand">
+                <img src="./images/brands/lego.png" alt="Image" class="brand">
+                <img src="./images/brands/ornelio.png" alt="Image" class="brand">
+                <img src="./images/brands/samsung.png" alt="Image" class="brand">
+                <img src="./images/brands/apple.png" alt="Image" class="brand">
+                <img src="./images/brands/dekraft.png" alt="Image" class="brand">
+                <img src="./images/brands/nutrilak.png" alt="Image" class="brand">
+                <img src="./images/brands/coffesso.png" alt="Image" class="brand">
+            </section>
+        </main>
+
+        <main class="text_section">
+            <p>Корпус выполнен из пластика, а покрытие насадок – из керамики. Имеет простое механическое управление: при
+                помощи переключателей на корпусе регулируются скорость и температурный режим. Устройство удобное в
+                хранении и использовании. Размеры в ширину составляют 56 см, в высоту – 264 см, в глубину – 62 см. Вес
+                равен 360 г. Для удобства эксплуатации рукоятка модели прорезинена и удобно располагается в руке.
+                Имеется специальная подвесная петля для расположения прибора на специальном крючке. Щетка имеет диаметр
+                40 мм и 50 мм. Шнур питания длиной 1,8 м оснащен специальным шарниром у крепления для защиты от
+                механических повреждений. Возможность вращения провода предотвращает его от запутывания. <br>
+                <br>
+                Основные функциональные характеристики: <br>
+                <br>
+                наличие 2 степеней нагрева;<br>
+                2 скорости работы воздушного потока;<br>
+                возможность вращения насадок;<br>
+                встроенный режим "холодный воздух";<br>
+                наличие съемной защитной решетки.<br>
+                Функция ионизации осуществляется благодаря турмалиновому покрытию, которое равномерно распределяет
+                горячий воздух и делает сушку волос<br> эффективной и максимально безопасной. <br>
+                <br>
+                В нашем маркетплейсе вы можете купить "фен-щетка Rowenta Brush Activ Keratin&Shine CF9522F0 Black/Pink"
+                в Москве. Кэшбэк до 495 бонусных рублей. Товар в <br> наличии у 7 продавцов. Цены начинаются от 4499
+                рублей
+            </p>
+        </main>
+
+    </div>
+
+    <footer>
+        <div class="about">
+            <ul>
+                <li class="main">О компании</li>
+                <li>Контакты</li>
+                <li>Вакансии</li>
+                <li>Реквизиты</li>
+                <li>Партнерская программа</li>
+            </ul>
+
+            <ul class="customer">
+                <li class="main">Покупателю</li>
+                <li>Помощь покупателю</li>
+                <li>Доставка</li>
+                <li>Оплата</li>
+                <li>Возврат</li>
+                <li>Кредит</li>
+                <li>Акции</li>
+                <li>Промокоды</li>
+                <li>СберСпасибо</li>
+            </ul>
+
+            <ul class="stores">
+                <li class="main">Магазинам</li>
+                <li>Помощь магазинам</li>
+                <li>Приглашение к сотрудничеству</li>
+                <li>Вход в личный кабинет</li>
+            </ul>
+
+            <ul class="poli_info">
+                <li class="main">Правовая информация</li>
+                <li>Условия использования сайта</li>
+                <li>Политика обработки персональных данных</li>
+                <li>Условия заказа и доставки</li>
+                <li>Правила сервиса «закажи и забери»</li>
+            </ul>
+
+        </div>
+
+        <div class="company">
+            <img src="./images/logo.png" alt="TOVARADAR">
+            <p>© 2022 «Texnostore»</p>
+
+            <div class="social_media">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="tel:+998909118747"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://telegram.org/"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <div class="com">
+                <a class="a-logo" href="./index.html"><img src="./images/logo.png" alt="TOVARADAR" class="logo"></a>
+
+                <div class="sel">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <select name="region" id="region">
+                        <option value="">Москва, Московская область</option>
+                        <option value="">Ташкент, Ташкентская область </option>
+                        <option value="">Самарканд, Узбекистан </option>
+                        <option value="">Санкт-Петербург, Ленинградская область </option>
+                        <option value="">Бухара, Узбекистан </option>
+                        <option value="">Алматы, Казахстан </option>
+                        <option value="">Нью-Йорк, США </option>
+                        <option value="">Лондон, Великобритания </option>
+                        <option value="">Киев, Украина </option>
+                        <option value="">Минск, Беларусь</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="search_section">
+                <button class="catalog_header"><a href="#"><i class="fa-solid fa-list"></i>Каталог</a></button>
+
+                <div class="sear">
+                    <input type="text" name="search" class="search" id="search" placeholder="Я ищу...">
+                    <button class="search_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+            </div>
+
+            <div class="navigation">
+                <nav>
+                    <i class="fa-solid fa-user"></i>
+                    <h4><a href="#">Войти</a></h4>
+                </nav>
+
+                <nav>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <h4><a href="#">Заказы</a></h4>
+                </nav>
+
+                <nav>
+                    <i class="fa-solid fa-heart"></i>
+                    <h4><a href="#">Избранные</a></h4>
+                </nav>
+
+                <nav>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h4><a href="#">Корзина</a></h4>
+                </nav>
+            </div>
+
+        </header>
+
+        <div class="main_info">
+            <p class="loco">/</p>
+
+            <h1>Оформление товара</h1>
+
+            <h4>Ваш регион:</h4>
+
+            <select name="region" id="region" class="region">
+                <option value="">Москва, Московская область</option>
+                <option value="">Ташкент, Ташкентская область </option>
+                <option value="">Самарканд, Узбекистан </option>
+                <option value="">Санкт-Петербург, Ленинградская область </option>
+                <option value="">Бухара, Узбекистан </option>
+                <option value="">Алматы, Казахстан </option>
+                <option value="">Нью-Йорк, США </option>
+                <option value="">Лондон, Великобритания </option>
+                <option value="">Киев, Украина </option>
+                <option value="">Минск, Беларусь</option>
+            </select>
+
+        </div>
+
+        <div class="about_product">
+            <div class="orders">
+                <div class="order_1">
+
+                    <div class="text">
+                        <h1>Заказ № 1</h1>
+                        <h2>Магазин</h2>
+                    </div>
+
+                    <article>
+                        <div class="prod">
+                            <img class="phone" src="./images/oreder_phone.png" alt="Image">
+
+                            <div class="order_text">
+                                <h1>Смартфон Xiaomi Mi 10T Pro
+                                    8GB/256GB (бирюзовый)</h1>
+                                <p>код товара: 67998909</p>
+                            </div>
+                        </div>
+
+                        <div class="config">
+
+                            <div class="amount">
+                                <i class="fa-solid fa-minus"></i>
+                                <h4>1</h4>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+
+                            <h1 class="price">3000 ₽</h1>
+
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+
+                    </article>
+
+                    <article class="nd_order">
+                        <div class="prod">
+                            <img class="not_allow" src="./images/order_lamp.png" alt="Image">
+
+                            <div class="lamp_text">
+                                <h1>Умная лампа светодиодная Xiaomi Mi LED Smart Bulb Warm White XMBGDP01YLK</h1>
+                                <p>код товара: 67998909</p>
+                            </div>
+                        </div>
+
+                        <div class="config">
+
+                            <div class="red_amount">
+                                <i class="fa-solid fa-minus"></i>
+                                <h4>1</h4>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+
+                            <h1 class="lamp_price">3000 ₽</h1>
+
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+
+                    </article>
+
+                    <div class="attent">
+                        <h2>Товар закончился у данного продавца. Выберите <a href="#"> другого продавца</a></h2>
+                    </div>
+
+                </div>
+
+                <div class="order_2">
+
+                    <div class="order_2-txt">
+                        <h1>Заказ № 1</h1>
+                        <h2>Магазин 1</h2>
+                    </div>
+
+                    <article>
+                        <div class="prod">
+                            <img class="phone" src="./images/oreder_phone.png" alt="Image">
+
+                            <div class="order_text">
+                                <h1>Смартфон Xiaomi Mi 10T Pro
+                                    8GB/256GB (бирюзовый)</h1>
+                                <p>код товара: 67998909</p>
+                            </div>
+                        </div>
+
+                        <div class="config">
+
+                            <div class="amount">
+                                <i class="fa-solid fa-minus"></i>
+                                <h4>1</h4>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+
+                            <h1 class="price">3000 ₽</h1>
+
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+
+                    </article>
+
+                    <article>
+                        <div class="prod">
+                            <img src="./images/order_lamp.png" alt="Image">
+
+                            <div class="lamp_text-2">
+                                <h1>Умная лампа светодиодная Xiaomi Mi LED Smart Bulb Warm White XMBGDP01YLK</h1>
+                                <p>код товара: 67998909</p>
+                            </div>
+                        </div>
+
+                        <div class="config">
+
+                            <div class="amount">
+                                <i class="fa-solid fa-minus"></i>
+                                <h4>1</h4>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+
+                            <h1 class="price">3000 ₽</h1>
+
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+
+                    </article>
+
+                    <article>
+                        <div class="prod">
+                            <img src="./images/order_lamp.png" alt="Image">
+
+                            <div class="lamp_text-2">
+                                <h1>Умная лампа светодиодная Xiaomi Mi LED Smart Bulb Warm White XMBGDP01YLK</h1>
+                                <p>код товара: 67998909</p>
+                            </div>
+                        </div>
+
+                        <div class="config">
+
+                            <div class="amount">
+                                <i class="fa-solid fa-minus"></i>
+                                <h4>1</h4>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+
+                            <h1 class="price">3000 ₽</h1>
+
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <div class="delivery">
+
+                    <div class="addres">
+                        <h1>Адрес доставки</h1>
+
+                        <input class="st-input" type="text" name="addres" id="addres"
+                            placeholder="г. Москва, Спартаковская площадь, 16/15 стр. 6">
+
+                        <div class="home-address">
+                            <div class="home">
+                                <p>Кв./Офис</p> <input type="number" name="ofis" id="ofis" placeholder="6">
+                            </div>
+
+                            <div class="home">
+                                <p>Этаж</p> <input type="number" name="ofis" id="ofis" placeholder="2">
+                            </div>
+
+                            <div class="home">
+                                <p>Подъезд</p> <input type="number" name="ofis" id="ofis" placeholder="1">
+                            </div>
+
+                            <div class="home">
+                                <p>Домофон</p> <input type="number" name="ofis" id="ofis" placeholder="6">
+                            </div>
+                        </div>
+
+                        <div class="comment">
+                            <textarea name="comment" class="comment-area" placeholder="Комментарий к заказу"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="receiver">
+                        <h1>Получатель</h1>
+
+                        <div class="details">
+
+                            <input type="text" name="name" class="name" placeholder="Имя">
+
+                            <input type="text" name="surname" class="surname" placeholder="фамилия">
+
+                            <input type="email" name="email" class="email" placeholder="Электронная почта">
+
+                            <input type="number" name="number" class="number" placeholder="Номер телефона">
+
+                        </div>
+                    </div>
+
+                    <div class="methofpay">
+                        <h1>Способ оплаты</h1>
+
+                        <div class="pay-mode">
+                            <div class="onepay">
+                                <input type="radio" name="pay" id="pay" class="pay"> <label for="pay">Наличными при полученнии</label>
+                            </div>
+    
+                            <div class="onepay">
+                                <input type="radio" name="pay" id="card" class="pay"> <label for="card">Онлайн банковской картой</label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <button class="del-btn"><a href="#">Оформить заказ</a></button>
+            </div>
+
+            <aside class="total-section">
+                <h1>Ваш заказ</h1>
+                <h2 class="tovari">Товары (5) <span>3000 ₽</span></h2>
+                <h3 class="total_price">Итого: <span>3000 ₽</span></h3>
+            </aside>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="about">
+            <ul>
+                <li class="main">О компании</li>
+                <li>Контакты</li>
+                <li>Вакансии</li>
+                <li>Реквизиты</li>
+                <li>Партнерская программа</li>
+            </ul>
+
+            <ul class="customer">
+                <li class="main">Покупателю</li>
+                <li>Помощь покупателю</li>
+                <li>Доставка</li>
+                <li>Оплата</li>
+                <li>Возврат</li>
+                <li>Кредит</li>
+                <li>Акции</li>
+                <li>Промокоды</li>
+                <li>СберСпасибо</li>
+            </ul>
+
+            <ul class="stores">
+                <li class="main">Магазинам</li>
+                <li>Помощь магазинам</li>
+                <li>Приглашение к сотрудничеству</li>
+                <li>Вход в личный кабинет</li>
+            </ul>
+
+            <ul class="poli_info">
+                <li class="main">Правовая информация</li>
+                <li>Условия использования сайта</li>
+                <li>Политика обработки персональных данных</li>
+                <li>Условия заказа и доставки</li>
+                <li>Правила сервиса «закажи и забери»</li>
+            </ul>
+
+        </div>
+
+        <div class="company">
+            <img src="./images/logo.png" alt="TOVARADAR">
+            <p>© 2022 «Texnostore»</p>
+
+            <div class="social_media">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="tel:+998909118747"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://telegram.org/"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

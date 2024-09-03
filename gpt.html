@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Radio Button</title>
+    <style>
+        /* Скрываем стандартное радиокнопки */
+        input[type="radio"] {
+            display: none;
+        }
+
+        /* Создаем кастомный стиль для радиокнопки */
+        .custom-radio {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: transparent;
+            border-radius: 50%;
+            border: 1px solid #B9B9B9;
+            position: relative;
+            cursor: pointer;
+        }
+
+        /* Стили для состояния checked */
+        input[type="radio"]:checked + .custom-radio {
+            background-color: green; /* Замените на желаемый цвет */
+            border-color: green;
+        }
+
+        /* Скрываем текст лейбла для визуально скрытых input */
+        .radio-label {
+            cursor: pointer;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<label class="radio-label">
+    <input type="radio" name="radio" id="radio1">
+    <span class="custom-radio"></span> Опция 1
+</label>
+
+<label class="radio-label">
+    <input type="radio" name="radio" id="radio2">
+    <span class="custom-radio"></span> Опция 2
+</label>
+
+</body>
+</html>
